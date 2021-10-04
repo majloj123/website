@@ -1,0 +1,95 @@
+/* tablet */
+
+@media only screen and (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+  }
+  
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .codeSkills .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .codeSkills .rect h1 {
+    font-size: 2rem;
+  }
+
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+
+  .section-4 .container .row img {
+    padding: 0;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .section-4 .container .row {
+    padding: 0;
+  }
+
+  .section-4 .container .row .col-md-5 {
+    padding: 0;
+  }
+
+  .section-4 .container .row .col-md-7 {
+    padding: 2em;
+  }
+
+  .section-4 .container h1 {
+    padding: 0.3em 0 1em 0;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+
+  .txt h3 {
+    overflow: hidden;
+  }
+
+  h2 i.fab{
+    color: #5d9ba8;
+    margin: 0.2em;
+  }
+
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+
+  footer h4 {
+    overflow-y: hidden;
+  }
+}
+
+/* media query for small screen isnt needed */
+
+@media only screen and (max-width: 680px) {
+
+  #nav.active {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .slideRight {
+    font-size: 0.7em;
+  }
+}

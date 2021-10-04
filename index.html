@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>About me</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./assets/favicon.png"/>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./mobile-style.css">
+</head>
+
+<body>
+  <header>
+    <div id="sticky" class="container-fluid p-0 d-flex flex-wrap justify-content-between nav-scheme">
+      <nav class="active" id="nav">
+        <ul>
+            <li><a href="#aboutMe">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <button class="icon" id="toggle">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+        </button>
+      </nav>
+      <div class="slideRight p-4 ali d-flex align-items-center">
+        <a class="=navbar-brand" href="#">
+          <i class="fa fa-square-full"></i><span class="logo">Marian</span>
+          .personal website</a>
+      </div>
+    </div>
+    <div class=" container text-center">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <h6>-- Marián Jandačka --</h6>
+          <h1>I keep on <br> <span id="movingText">growing!</span></h1>
+          <p>
+            Hello, I am a self-taught.
+            I was born in Slovakia in 1997. Currently, I am based in Bratislava, Slovakia.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 p-2 h-25 d-flex align-self-center justify-content-center">
+          <img src="./assets/logo.png" alt="myLogo" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id='aboutMe' class="section-1">
+      <div class="container text-center box">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="pray">
+              <img src="./assets/my-photo.jpg" alt="myPhoto" class="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="panel text-left">
+              <h1>Marian Jandacka</h1>
+              <p class="pt-4">
+                I am a self-taught web developer who started with a big help of Udemy courses and a few people. I am focusing on front-end, mainly on JavaScript. Im also learning some basics about React, Node.js (Express.js) and PostgreSQL.
+              </p>
+              <p>
+                In my free time I like to educate myself more in front-end technologies as React and also Node.js. Besides that I like to go to the gym, draw some scatch, watch sci-fi or fantasy, read good books and playing video games.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="skills" class="section-2 container-fluid p-0">
+        <div class="content text-center box">
+          <h1>What i "pretend" to know?</h1>
+          <p>
+            Im familiar with basics of...
+          </p>
+          <div class="codeSkill d-flex flex-md-row flex-wrap justify-content-center">
+              <div class="rect html d-flex flex-column">
+                <h1><i class="fab fa-html5"></i></h1>
+                <p>HTML</p>
+              </div>
+              <div class="rect css d-flex flex-column">
+                <h1><i class="fab fa-css3"></i></h1>
+                <p>CSS</p>
+              </div>
+              <div class="rect js d-flex flex-column">
+                <h1><i class="fab fa-js"></i></h1>
+                <p>JavaScript</p>
+              </div>
+              <div class="rect react d-flex flex-column">
+                <h1><i class="fab fa-react"></i></h1>
+                <p>React</p>
+              </div>
+          </div>
+          
+          <p>
+            Im also learning right now basics about...
+          </p>
+          <div class="codeSkill d-flex flex-md-row flex-wrap justify-content-center">
+              <div class="rect d-flex flex-column">
+                <h1><i class="fab fa-node-js"></i></h1>
+                <p>Node.js</p>
+              </div>
+              <div class="rect d-flex flex-column">
+                <h1><i class="fas fa-database"></i></h1>
+                <p>PostgreSQL</p>
+              </div>
+              <div class="rect d-flex flex-column">
+                <h1><i class="fab fa-github"></i></h1>
+                <p>Git & Github</p>
+              </div>
+              <div class="rect d-flex flex-column">
+                <h1><i class="fab fa-java"></i></h1>
+                <p>Java</p>
+              </div>
+          </div> 
+        </div> 
+      </section>
+    <section class="box container-fluid p-0">
+      <div class="whyMe text-center box">
+        <h1>Why you should hire me?</h1>
+        <p>
+          I am a university graduate who is fascinated by the world of IT and sees his future in this industry. 
+          <br>
+          <small>"I will be the one who carries coffee for the one who carries coffee if I learn something!"</small>
+        </p>
+        <div class="flexBody">
+          <div class="container-gallery">
+            <div class="panels active" style="background-image: url('https://images.unsplash.com/photo-1499540633125-484965b60031?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80');">
+                <div class="txt">
+                  <h3>Teamwork</h3>
+                  <p>Working with people from whom I can learn and at the same time contribute my knowledge to create something great</p>
+                </div>
+                
+            </div>
+            <div class="panels" style="background-image: url('https://images.unsplash.com/photo-1632939082429-b8293da22ece?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1501&q=80');">
+              <div class="txt">
+                <h3>Passion</h3>
+                <p>Lack of experience and higher education balances the desire to constantly learn in the field of IT technologies and face new challenges</p>
+              </div>
+                
+            </div>
+            <div class="panels" style="background-image: url('https://images.unsplash.com/photo-1540835296355-c04f7a063cbb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80');">
+              <div class="txt">
+                <h3>Assertiveness and humility</h3>
+                <p>Effort to constantly look for solutions with a calm head and to respectfully communicate about the problem that will occur</p>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="resume"></div>
+    <section class="section-3 box container-fluid p-0 text-center">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h1>You can look on my bio if you want to know more</h1>
+          <p>
+            There you can find school which i visited, what im doing now or another personal staffs like my birthday
+          </p>
+        </div>
+      </div>
+      <div class="platform row">
+        <div class="col-md-6 col-sm-12 text-right">
+          <div class="desktop m-5 shadow-lg">
+            <div class="d-flex flex-row justify-content-center">
+              <a href="./assets/CV.pdf">
+                <i class="fas fa-file-download fa-3x py-2 pr-3"></i>
+                <div class="text">
+                  <h3 class="pt-1 m-0">Resume</h3>
+                  <p class="p-0 m-0">In English</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 text-left">
+          <div class="desktop m-5 shadow-lg">
+            <div class="d-flex flex-row justify-content-center">
+              <a href="./assets/CV.pdf">
+                <i class="fas fa-file-download fa-3x py-2 pr-3"></i>
+                <div class="text text-left">
+                  <h3 class="pt-1 m-0">Resume</h3>
+                  <p class="p-0 m-0">In Slovak</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4 -->
+    <div id="portfolio"></div>
+    <section class="section-4 box">
+      <div class="container text-center">
+        <h1 class="text-dark">My portfolio</h1>
+        <p class="text-secondary">Few of my little projects</p>
+      </div>
+      <!--Here put my projects-->
+      
+      <div class=" container text-left">
+        <div class="row box">
+          <div class="col-md-5 col-sm-12 h-25 d-flex align-self-center justify-content-center">
+            <a href="https://majloj123.github.io/BackgroundGenerator/">
+            <div>
+              <img class="img-fluid" src="./assets/project0.jpg" />
+            </div>
+            </a>
+          </div>
+          <div class="col-md-7 col-sm-12 align-items-start">
+            <h1>Background Generator</h1>
+            <h2><i class="fab fa-html5"></i><i class="fab fa-css3"></i><i class="fab fa-js"></i></h2>
+            <p>
+              This project is simple web page where you can mix colors and create your unique gradient background and paste it to for your web page!
+            </p>
+            <a class="btn" href="https://majloj123.github.io/BackgroundGenerator/">
+              See Live
+            </a>
+            <a class="btn" href="https://github.com/majloj123/BackgroundGenerator">
+              Source Code
+            </a>
+          </div>
+          
+        </div>
+        <div class="row box">
+          <div class="col-md-5 col-sm-12 h-25 d-flex align-self-center justify-content-center">
+            <a href="https://majloj123.github.io/Game/">
+            <div>
+              <img class="img-fluid" src="./assets/project1.jpg" />
+            </div>
+            </a>
+          </div>
+          <div class="col-md-7 col-sm-12 align-items-start">
+            <h1>Simple Memory Game</h1>
+            <h2><i class="fab fa-html5"></i><i class="fab fa-css3"></i><i class="fab fa-js"></i></h2>
+            <p>
+              This is simple game where you must find two the same symbols. You win when you find them all!
+            </p>
+            <a class="btn" href="https://majloj123.github.io/Game">
+              See Live
+            </a>
+            <a class="btn" href="https://github.com/majloj123/Game">
+              Source Code
+            </a>
+          </div>
+          
+        </div>
+        <div class="row box">
+          <div class="col-md-5 col-sm-12 h-25 d-flex align-self-center justify-content-center">
+            <a href="https://majloj123.github.io/ColorConverter/">
+            <div>
+              <img class="img-fluid" src="./assets/project2.jpg" />
+            </div>
+            </a>
+          </div>
+          <div class="col-md-7 col-sm-12 align-items-start">
+            <h1>Color Converter</h1>
+            <h2><i class="fab fa-html5"></i><i class="fab fa-css3"></i><i class="fab fa-js"></i></h2>
+            <p>
+              This project is simple web page where you can convert RGB color to Hex value. Also you can type Hex value and obtain RGB values.
+            </p>
+            <a class="btn" href="https://majloj123.github.io/ColorConverter/">
+              See Live
+            </a>
+            <a class="btn" href="https://github.com/majloj123/ColorConverter">
+              Source Code
+            </a>
+          </div>
+          
+        </div>
+        <div class="row box">
+          <div class="col-md-5 col-sm-12 h-25 d-flex align-self-center justify-content-center">
+            <a href="https://facerecognition9.herokuapp.com/">
+            <div>
+              <img class="img-fluid" src="./assets/project3.jpg" />
+            </div>
+            </a>
+          </div>
+          <div class="col-md-7 col-sm-12 align-items-start">
+            <h1>Face Recognition</h1>
+            <h2><i class="fab fa-react"></i><i class="fab fa-node-js"></i></h2>
+            <p>
+              This application is build through React framework and Node.js. You can register and login there and when you put URL of image there you will see the magic! Its deployed on heroku.
+            </p> 
+            <a class="btn" href="https://facerecognition9.herokuapp.com/">
+              See Live
+            </a>
+            <a class="btn" href="https://github.com/majloj123/facerecognition9">
+              Source Code
+            </a>
+          </div>
+          
+        </div>
+        <div class="row box">
+          <div class="col-md-5 col-sm-12 h-25 d-flex align-self-center justify-content-center">
+            <a href="https://majloj123.github.io/robotfriends/">
+            <div>
+              <img class="img-fluid" src="./assets/project4.jpg" />
+            </div>
+            </a>
+          </div>
+          <div class="col-md-7 col-sm-12 align-items-start">
+            <h1>Robotfriends</h1>
+            <h2><i class="fab fa-react"></i></h2>
+            <p>
+              This application is build through React framework and is using API to fetch them into our sipmle list of funny robots. <br>
+               
+            </p> 
+            <a class="btn" href="https://majloj123.github.io/robotfriends/">
+              See Live
+            </a>
+            <a class="btn" href="https://github.com/majloj123/robotfriends">
+              Source Code
+            </a>
+          </div>
+          
+        </div>
+      </div>  
+     
+    </section>
+  </main>
+  <footer>
+    <div class="container-fluid p-2 justify-content-around">
+      <div class="row text-left">
+        <div class="col-md-6 col-sm-12 text-center">
+          <h4 class="text-light">About me</h4>
+          <p class="text-muted">Im College graduate looking for new opportunities</p>
+          <p class="pt-4 text-muted">Copyright ©2021 All rights reserved
+          </p>
+        </div>
+    
+        <div class="col-md-6 col-sm-12 text-center">
+          <h4 class="text-light">Follow me</h4>
+          <p class="text-muted">Contact me through social media</p>
+          <div class="column text-light">
+            <a href="https://www.facebook.com/majo.jandacka/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/marian.jandacka/"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:marian.jandacka123@gmail.com"><i class="fas fa-at"></i></a>
+            <a href="tel:0914118071"><i class="fas fa-phone-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="./script.js"></script>
+</body>
+
+</html>
