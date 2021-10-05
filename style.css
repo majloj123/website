@@ -527,13 +527,13 @@ footer .column i:hover {
 /* boxes scrolling */
 
 .box {
-  transform: translateX(400%);
+  transform: translateX(100%);
   opacity: 0;
-  transition: transform 1s ease;
+  transition: transform 0.7s ease-in, opacity 1.5s ease;
 }
 
 .box:nth-of-type(even) {
-  transform: translateX(-400%);
+  transform: translateX(-100%);
 }
 
 .box.show {
